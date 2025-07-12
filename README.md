@@ -51,12 +51,12 @@ ________________________________________________________________________________
 
 - cd react-sheet
 
- - Install dependencies
-npm install
+ - Install dependencies:- 
+ npm install
 
-- Run locally
-npm run dev
+- Run locally:- 
+ npm run dev
 
-- Linting & Type Checks
-npm run lint
-npm run type-check
+- Linting & Type Checks:-
+ npm run lint
+ npm run type-check
