@@ -1,12 +1,44 @@
-# React + Vite
+A static, pixel-perfect prototype of the spreadsheet view from Figma.
+This prototype mimics a Google Sheets-like interface using modern React tooling.
+____________________________________________________________________________________________________________________________________
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+👉 Live Site URL
 
-Currently, two official plugins are available:
+__________________________________________________________________________________________________________________________________
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧰 Tech Stack 
 
-## Expanding the ESLint configuration
+- React 18 (via Vite)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- TypeScript (strict mode)
+
+- Tailwind CSS (for utility-first styling)
+
+- @tanstack/react-table v8 (headless table engine)
+
+________________________________________________________________________________________________________________
+
+✅ Features
+🔍 Pixel-close layout matching the Figma design
+
+🔢 Spreadsheet-like experience using @tanstack/react-table 
+
+🔘 Interactive buttons and tabs (all functional—log actions or toggle state)
+
+🧼 Lint & type check compliant (npm run lint & npm run type-check)
+
+🧾 Clean commit history with meaningful messages
+
+_________________________________________________________________________________________________________________
+
+ Stretch Features (Optional)
+ 
+📏 Column resize
+
+_______________________________________________________________________________________________________________
+
+🧠 Trade-offs
+- TanStack Table gives total control, but that means more initial setup than react-table v7.
+
+- Requires manual wiring of behaviors like selection, keyboard navigation, and column resize—however, this provides full flexibility to implement spreadsheet UX exactly as designed.
