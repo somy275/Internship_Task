@@ -42,3 +42,21 @@ ________________________________________________________________________________
 - TanStack Table gives total control, but that means more initial setup than react-table v7.
 
 - Requires manual wiring of behaviors like selection, keyboard navigation, and column resize—however, this provides full flexibility to implement spreadsheet UX exactly as designed.
+
+_______________________________________________________________________________________________________________
+
+🛠️ Setup
+
+- https://github.com/somy275/Internship_Task.git
+
+- cd react-sheet
+
+ # Install dependencies
+npm install
+
+# Run locally
+npm run dev
+
+# Linting & Type Checks
+npm run lint
+npm run type-check
